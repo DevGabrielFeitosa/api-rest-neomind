@@ -39,6 +39,7 @@ Projeto JavaEE com servidor embutido - **sem necessidade de instalação externa
 7. **Feche e reabra o terminal**
 
 # Verificar Java
+```
 java -version
 ```
 
@@ -46,25 +47,25 @@ java -version
 
 ## 🚀 **COMO EXECUTAR A APLICAÇÃO**
 
-### **📁 Passo 1: Navegar até a pasta do projeto**
+### **Método 1: Script Automático ou Terminal do IntelliJ (Mais Fácil)**
 
-```bash
-cd C:\Projetos\api-rest-neomind
-```
-
-### **🎯 Passo 2: Executar a aplicação**
-
-#### **Método 1: Script Automático (Mais Fácil)**
-
-**No PowerShell:**
-```powershell
-Vá até a pasta do projeto que você importou, aperte SHITF no teclado e clique com o botão
+**Vá até a pasta do projeto que você importou, aperte SHITF no teclado e clique com o botão
 direito dentro do diretório do projeto e selecione a opção "Abrir janela do PowerShell aqui".
-Após isso digite o comando:
+Após isso digite o comando::**
+```powershell
 .\run.cmd
 ```
+### **Método 2: Configurando o Run do Intellij**
 
-#### **Método 2: Comandos Manuais**
+#### **Para usar no IntelliJ Run Configuration:**
+```
+1. `Run` → `Edit Configurations...`
+2. `+` → `Maven`
+3. **Command line:** `clean package -DskipTests exec:java -Dexec.mainClass=br.com.api.neomind.apirestneomind.PayaraMicroApp`
+4. **Working directory:** `$PROJECT_DIR$`
+```
+
+### **Método 3: Comandos Manuais**
 
 ```bash
 # 1. Compilar o projeto
@@ -127,6 +128,7 @@ curl http://localhost:8080/api/api/hello-world
 
 - **Pressione `Ctrl + C`** no terminal
 - Ou **feche a janela do terminal**
+- Ou **aperte o botão 'Stop' no IntelliJ**
 
 ---
 
