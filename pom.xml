@@ -78,6 +78,13 @@
             <version>${h2.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Payara Micro para execução no IntelliJ -->
+        <dependency>
+            <groupId>fish.payara.extras</groupId>
+            <artifactId>payara-micro</artifactId>
+            <version>${payara.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -118,6 +125,16 @@
                             <value>8080</value>
                         </option>
                     </commandLineOptions>
+                </configuration>
+            </plugin>
+
+            <!-- Exec Plugin para rodar no IntelliJ -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>br.com.api.neomind.apirestneomind.PayaraMicroApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>

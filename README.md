@@ -7,16 +7,9 @@ Projeto JavaEE com servidor embutido - **sem necessidade de instalação externa
 ### **📖 Manuais Completos**
 - **[📋 Manual Completo de Instalação](MANUAL-INSTALACAO.md)** - Guia detalhado com configuração do JAVA_HOME
 
-### **🎯 Execução Rápida**
+### **🎯 Teste Rápido**
 
 **Pré-requisito:** Java 11+ e JAVA_HOME configurado
-
-**Terminal do Intellij:**
-```powershell
-Após configurar corretamente a variável de ambiente, vá até o terminal do Intellij
-e rode este comando:
-.\run.cmd
-```
 
 **Testar:** http://localhost:8080/api/api/hello-world
 
