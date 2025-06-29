@@ -102,7 +102,7 @@ http://LAPTOP-SEU-PC:8080/api
 ### **4️⃣ Aplicação Pronta! ✅**
 ```
 'api' REST Endpoints:
-GET     /api/api/hello-world
+GET     /api/hello-world
 ```
 
 ---
@@ -110,7 +110,7 @@ GET     /api/api/hello-world
 ## 🌐 **TESTANDO A APLICAÇÃO**
 
 ### **🌍 No Navegador:**
-Acesse: http://localhost:8080/api/api/hello-world
+Acesse: http://localhost:8080/api/hello-world
 
 ### **📱 Resposta esperada:**
 ```
@@ -119,7 +119,7 @@ Hello, World!
 
 ### **🔧 Usando cURL:**
 ```bash
-curl http://localhost:8080/api/api/hello-world
+curl http://localhost:8080/api/hello-world
 ```
 
 ---
@@ -135,7 +135,7 @@ curl http://localhost:8080/api/api/hello-world
 ## 📊 **URLs DA APLICAÇÃO**
 
 - **🏠 Aplicação**: http://localhost:8080/api
-- **🔗 API Hello World**: http://localhost:8080/api/api/hello-world
+- **🔗 API Hello World**: http://localhost:8080/api/hello-world
 
 ---
 
@@ -174,7 +174,7 @@ run.cmd
 .\run.cmd
 
 # 3. Acessar no navegador
-http://localhost:8080/api/api/hello-world
+http://localhost:8080/api/hello-world
 ```
 
 **🎉 Pronto! Sua aplicação JavaEE está rodando!**

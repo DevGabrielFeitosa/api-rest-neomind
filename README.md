@@ -11,7 +11,7 @@ Projeto JavaEE com servidor embutido - **sem necessidade de instalação externa
 
 **Pré-requisito:** Java 11+ e JAVA_HOME configurado
 
-**Testar:** http://localhost:8080/api/api/hello-world
+**Testar:** http://localhost:8080/api/hello-world
 
 ## 📋 Requisitos
 
@@ -22,8 +22,8 @@ Projeto JavaEE com servidor embutido - **sem necessidade de instalação externa
 ## 🌐 Endpoints
 
 - **Aplicação**: http://localhost:8080
-- **API Base**: http://localhost:8080/api/api/
-- **Hello World**: http://localhost:8080/api/api/hello-world
+- **API Base**: http://localhost:8080/api/
+- **Hello World**: http://localhost:8080/api/hello-world
 
 ## 🛠️ Tecnologias
 
