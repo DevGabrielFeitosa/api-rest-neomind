@@ -71,12 +71,11 @@
             <version>${postgresql.version}</version>
         </dependency>
 
-        <!-- H2 Database (para testes) -->
+        <!-- H2 Database (banco em memória) -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>${h2.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- Payara Micro para execução no IntelliJ -->

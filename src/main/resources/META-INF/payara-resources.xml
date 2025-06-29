@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//Payara.fish//DTD Payara Server 4 Resource Definitions//EN" "https://raw.githubusercontent.com/payara/Payara/master/appserver/deployment/dtds/payara-resources_1_6.dtd">
+<resources>
+    <jdbc-connection-pool
+        name="H2Pool"
+        res-type="javax.sql.DataSource"
+        datasource-classname="org.h2.jdbcx.JdbcDataSource">
+        <property name="URL" value="jdbc:h2:mem:fornecedores;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;INIT=RUNSCRIPT FROM 'classpath:data.sql'"/>
+        <property name="user" value="sa"/>
+        <property name="password" value=""/>
+    </jdbc-connection-pool>
+
+    <jdbc-resource
+        enabled="true"
+        jndi-name="java:app/jdbc/h2DS"
+        pool-name="H2Pool"/>
+</resources>
