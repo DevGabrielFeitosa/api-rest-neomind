@@ -20,7 +20,7 @@ import java.nio.file.Paths;
  * 
  * 3. TERCEIRO: Acesse a aplicação
  *    - Aplicação: http://localhost:8080/api
- *    - API Hello: http://localhost:8080/api/api/hello-world
+ *    - API Hello: http://localhost:8080/api/hello-world
  * 
  * 4. PARA PARAR: Clique no botão 'Stop' (quadrado vermelho) no IntelliJ
  * 
@@ -101,8 +101,8 @@ public class PayaraMicroApp {
             System.out.println("========================================");
             System.out.println("🌐 URLs disponíveis:");
             System.out.println("   🏠 Aplicação: http://localhost:8080/api");
-            System.out.println("   🔗 Hello API: http://localhost:8080/api/api/hello-world");
-            System.out.println("   📋 WADL: http://localhost:8080/api/api/application.wadl");
+            System.out.println("   🔗 Hello API: http://localhost:8080/api/hello-world");
+            System.out.println("   📋 WADL: http://localhost:8080/api/application.wadl");
             System.out.println("========================================");
             System.out.println("⏹️  Para parar: Clique no botão 'Stop' no IntelliJ");
             System.out.println("🐛 Para debug: Use o botão 'Debug' no IntelliJ");
@@ -110,7 +110,7 @@ public class PayaraMicroApp {
             System.out.println("========================================");
             
             System.out.println("⏳ Servidor rodando... aguardando requisições.");
-            System.out.println("💡 Dica: Teste a API acessando http://localhost:8080/api/api/hello-world");
+            System.out.println("💡 Dica: Teste a API acessando http://localhost:8080/api/hello-world");
 
             // Aguardar o processo terminar
             int exitCode = process.waitFor();

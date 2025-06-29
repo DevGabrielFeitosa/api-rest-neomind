@@ -25,7 +25,7 @@ if %ERRORLEVEL% neq 0 (
 echo.
 echo [2/3] Iniciando servidor Payara Micro...
 echo Servidor sera iniciado em: http://localhost:8080
-echo API disponivel em: http://localhost:8080/api/api/hello-world
+echo API disponivel em: http://localhost:8080/api/hello-world
 echo.
 echo Pressione Ctrl+C para parar o servidor
 echo.
