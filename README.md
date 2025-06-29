@@ -11,11 +11,10 @@ Projeto JavaEE com servidor embutido - **sem necessidade de instalação externa
 
 **Pré-requisito:** Java 11+ e JAVA_HOME configurado
 
-**PowerShell:**
+**Terminal do Intellij:**
 ```powershell
-Vá até a pasta do projeto que você importou, aperte SHITF no teclado e clique com o botão
-direito dentro do diretório do projeto e selecione a opção "Abrir janela do PowerShell aqui".
-Após isso digite o comando:
+Após configurar corretamente a variável de ambiente, vá até o terminal do Intellij
+e rode este comando:
 .\run.cmd
 ```
 
